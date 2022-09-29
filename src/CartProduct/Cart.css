@@ -1,0 +1,17 @@
+.myCard{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.569);
+    padding-bottom: 10px;
+}
+.itemImg{
+
+    width: 150px;
+}
+.btnGroup{
+
+    display: inline-block;
+}

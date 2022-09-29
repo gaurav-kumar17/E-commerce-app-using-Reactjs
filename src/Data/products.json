@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "title":"Product-1",
+        "description":"This is a product-1",
+        "price":234,
+        "stocks":2,
+        "ratings":3
+    },
+
+    {
+        "id":2,
+        "title":"Product-2",
+        "description":"This is a product-2",
+        "price":369,
+        "stocks":7,
+        "ratings":1
+    },
+
+    {
+        "id":3,
+        "title":"Product-3",
+        "description":"This is a product-3",
+        "price":646,
+        "stocks":9,
+        "ratings":2
+    },
+
+    {
+        "id":4,
+        "title":"Product-4",
+        "description":"This is a product-4",
+        "price":574,
+        "stocks":5,
+        "ratings":2
+    },
+    {
+        "id":5,
+        "title":"Product-5",
+        "description":"This is a product-5",
+        "price":229,
+        "stocks":5,
+        "ratings":3
+    },
+    {
+        "id":6,
+        "title":"Product-6",
+        "description":"This is a product-6",
+        "price":816,
+        "stocks":21,
+        "ratings":4
+    }
+
+]
