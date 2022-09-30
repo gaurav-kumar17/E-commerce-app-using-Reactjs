@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import CartProductCart from "./CartProductCard"
 import "./Cart.css";
+import { CartContext } from "../App";
 
 const Cart=()=>{
-
+    const products=useContext(CartContext);
+    console.log(products);
     return(
         <div className="container pb-4">
             <div className="row">
                 <div className="col-9">
-                    <CartProductCart/>
-                    <CartProductCart/>
-                    <CartProductCart/>
-                    <CartProductCart/>
+                    {products && products.map(()=>{
+                        return <CartProductCart/>;
+                    })}
+                    
                 </div>  
 
                 <div className="col-3">
